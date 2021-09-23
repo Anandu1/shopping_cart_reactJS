@@ -1,0 +1,76 @@
+.checkOut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.addressRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkOutTitle{
+    font-size: 25px;
+}
+.userInfo,.payTiltle{
+    border:lightgray solid;
+    border-width: 0.01px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+}
+.paymentType{
+    border:lightgray solid;
+    border-width: 0.01px;
+    border-radius: 5px;
+    width: 50%;  
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.paymentList{
+    list-style: none;
+}
+.payTiltle{
+    font-size: 22px;
+
+}
+.paymentType{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+.payList{
+    width: 50%;
+    padding: 20px;
+}
+.total{
+    font-size: 20px;
+    padding: 25px;
+}
+.amount{
+    border:lightgray solid;
+    border-width: 0.01px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+li{
+    border:lightgray solid;
+    border-width: 0.01px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;  
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.change{
+    background-color:#f04040; 
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
